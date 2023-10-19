@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requirements:
+Make an API call to given API to fetch a list of products.
+Create two layouts, one for list view another one for grid view make use of flex and grid to switch between view on click of button.
+On input of search bar variants matching to the search key should get highlighted
+Implement media queries to adjust the layout for different screen sizes.
+Utilize async/await for asynchronous operations while handling API.
+Steps to Complete the Task:
+Set up the project:
 
-## Available Scripts
+Assess the given figma design to understand requirements clearly
+Design link
 
-In the project directory, you can run:
+Fetch API data:
+Use the Fetch API to make an API call to retrieve a list of products.
+Handle the asynchronous operation using async/await to fetch the data.
+API ENDPOINT(URL) : https://mocki.io/v1/0934df88-6bf7-41fd-9e59-4fb7b8758093
 
-### `npm start`
+Creating product card :
+Create both product cards as per the given design (Grid card and list card)
+That includes product title , image , badge , variants.
+Creating search bar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On the input of the search bar anything that matches to key will be highlighted.
+A partial search should work.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Creating Layout switch buttons
 
-### `npm test`
+Layout switch buttons will change the layout between grid and list
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Test and refine:
+Do a testing for search and layout switch button
 
-### `npm run build`
+Finalize and submit:
+Clean up the code, refactor if necessary, and optimize performance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Important links to resources:
+https://www.figma.com/file/xG21MiqSOJcUDtJL085wSK/Untitled?type=design&node-id=0%3A1&mode=design&t=2hrQyQz1CrATZn75-1
+APl - https://mocki.io/v1/0934df88-6bf7-41fd-9e59-4fb7b8758093
