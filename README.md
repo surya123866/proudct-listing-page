@@ -11,30 +11,30 @@ Set up the project:
 
 Assess the given figma design to understand requirements clearly
 Design link
-For any task related doubts candidates can reach out to invigilator at 9651223950
-Fetch API data:
 
-Use the Fetch API to make an API call to retrieve a list of product.
+Fetch API data:
+Use the Fetch API to make an API call to retrieve a list of products.
 Handle the asynchronous operation using async/await to fetch the data.
 API ENDPOINT(URL) : https://mocki.io/v1/0934df88-6bf7-41fd-9e59-4fb7b8758093
-Creating product card :
 
-Create both product cards as per given design (Grid card and list card)
+Creating product card :
+Create both product cards as per the given design (Grid card and list card)
 That includes product title , image , badge , variants.
 Creating search bar
 
-On input of search bar anything that matches to key will be highlighted.
-Partial search should work.
+On the input of the search bar anything that matches to key will be highlighted.
+A partial search should work.
+
 Creating Layout switch buttons
 
 Layout switch buttons will change the layout between grid and list
+
 Test and refine:
-
 Do a testing for search and layout switch button
-Finalize and submit:
 
+Finalize and submit:
 Clean up the code, refactor if necessary, and optimize performance.
-Submit the ZIP file of the project over email.
+
 Important links to resources:
 https://www.figma.com/file/xG21MiqSOJcUDtJL085wSK/Untitled?type=design&node-id=0%3A1&mode=design&t=2hrQyQz1CrATZn75-1
 APl - https://mocki.io/v1/0934df88-6bf7-41fd-9e59-4fb7b8758093
